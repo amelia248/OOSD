@@ -4,7 +4,7 @@
 // Purpose          : LAB 02 A Q4 : testing the HotelRoom class with isOccupied() method
 
 void printHotelRoomData(HotelRoom room, String name) {
-	System.out.println(name + ":");
+	System.out.println("room called " + name + ": ");
 	System.out.println("	number: " + room.getRoomNumber());
 	System.out.println("	type:   " + room.getRoomType());
 	System.out.println("	rate:  €" + room.getRate());
