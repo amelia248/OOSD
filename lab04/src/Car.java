@@ -12,4 +12,9 @@ public class Car {
 	public String getBrand() { return brand; }
 	public String getModel() { return model; }
 	public String getFuelType() { return fuelType; }
+
+	@Override
+	public String toString() {
+		return this.brand + " " + this.model + " (fuel type: " + this.fuelType + ")";
+	}
 }

@@ -17,4 +17,9 @@ public class Address {
 		this.town = town;
 		this.street = street;
 	}
+
+	@Override
+	public String toString() {
+		return this.county + "," + this.town + "," + this.street;
+	}
 }
